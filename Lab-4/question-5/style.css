@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: hsla(180, 1%, 16%, 0.195);
+
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+    margin: 0 auto 20px auto;
+
+
+
+}
+
+li {
+
+    color: white;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 20%;
+}
+
+#main {
+
+
+
+
+
+    text-align: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: #ffff;
+}

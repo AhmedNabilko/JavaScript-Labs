@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item label {
+    width: 140px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+
+.item input:not([type="checkbox"]),
+.item select {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+
+
+}
+
+
+.item input.invalid,
+.item select.invalid {
+    background-color: lightgray;
+}
+
+
+.item input.valid,
+.item select.valid {
+    background-color: white;
+}
+
+
+
+
+.checkboxItem {
+
+    margin-left: 75px;
+
+}
+
+.checkboxItem input[type="checkbox"] {
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.checkboxItem label {
+    width: auto;
+}
+
+
+.validationMessage {
+    color: red;
+    font-size: 0.85em;
+    margin-left: 10px;
+    flex-basis: 100%;
+
+    text-align: right;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.submissionMessage {
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    display: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.example {
+    background: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.hidden {
+    display: none;
+}
+
+.back-link {
+    margin-top: 20px;
+}
